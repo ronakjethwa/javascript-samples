@@ -1,5 +1,4 @@
 // without arrow function
-
 function ask(question, yes, no) {
   if (confirm(question)) yes()
   else no();
@@ -13,7 +12,6 @@ ask(
 
 
 // with arrow function
-
 function ask(question, yes, no) {
   if (confirm(question)) yes()
   else no();
@@ -27,5 +25,4 @@ ask(
 
 
 // most concised
-
 ( () => confirm("Do you agree?") ? alert("You agreed") : alert("You canceled execution") )()
