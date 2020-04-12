@@ -24,5 +24,5 @@ ask(
 );
 
 
-// most concised
+// most concised arrow function
 ( () => confirm("Do you agree?") ? alert("You agreed") : alert("You canceled execution") )()
