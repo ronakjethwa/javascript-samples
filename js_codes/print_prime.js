@@ -1,3 +1,4 @@
+// print prime until N
 let primeRequirement = prompt("Prime until when?", "")
 let primeNumbers = [];
 

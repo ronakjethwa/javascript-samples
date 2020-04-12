@@ -1,3 +1,4 @@
+// merge and sort two arrays
 	let array1 = [ 'bat', 'cat', 'hat', 'mat']
 	let array2 = [ 'chat', 'gnat', 'mat', 'tat']
 	let fullArray = [];
