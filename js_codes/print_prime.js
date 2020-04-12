@@ -1,3 +1,5 @@
+// for prime number operation with WebWorkers, check out https://github.com/ronakjethwa/javascript-webworkers
+
 // print prime until N
 let primeRequirement = prompt("Prime until when?", "")
 let primeNumbers = [];
