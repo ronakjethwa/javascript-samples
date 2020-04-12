@@ -5,11 +5,11 @@ let fullArray = [];
 let fullArrraySorted = [];
 
 function concatMyArrays() {
-    return array1.concat(array2);
+  return array1.concat(array2);
 }
 
 function sortMyArray(fullArray) {
-    fullArraySorted = fullArray.sort();
+  fullArraySorted = fullArray.sort();
 }
 
 fullArray = concatMyArrays();
