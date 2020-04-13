@@ -34,5 +34,5 @@ number.splice(replaceIndex, 1, "new_item")
 // output = ['one', 'new_item', 'three', 'four'];
 
 // Approach 2
-number.Object.assign([...numbers], {[index]: "new_item"})
+number = Object.assign([...numbers], { [index]: "new_item" })
 // output = ['one', 'new_item', 'three', 'four'];
